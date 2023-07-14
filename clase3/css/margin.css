@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+}
+
+#verde{
+    width: 200px;
+    height: 200px;
+    background-color: #45d55b;
+    margin: 40px;
+}
+#naranja{
+    width: 200px;
+    height: 200px;
+    background-color: #f8a774;
+    /* USO ESPECIAL DE margin */
+    margin: auto; /* centrar una caja - en HORIZONTAL */
+}
+#fucsia{
+    width: 200px;
+    height: 200px;
+    background-color: #ca46ad;
+    margin-left: 64px;
+    margin-top: 32px;
+}
