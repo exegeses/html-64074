@@ -1,0 +1,38 @@
+/* selector universal */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-style: 24px;
+    color: #fff;
+    background-color: #2e2e2e;
+}
+
+#primero{
+    width: 200px;
+    height: 120px;
+    background-color: #199632;
+    padding: 20px;
+}
+#segundo{
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    background-color: #9035d1;
+}
+
+#contenedor{
+    width: 560px;
+    height: 260px;
+    padding: 20px;
+    background-color: #2d3d21;
+    border-radius: 24px;
+
+    display: flex;
+    align-items: center;
+}
