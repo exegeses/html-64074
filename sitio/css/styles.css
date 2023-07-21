@@ -60,3 +60,36 @@ main{
         margin-left: 144px;
         width: 288px;
     }
+
+/* sección Promos */
+#promos{
+    height: 464px;
+    background-color: #FAF0E9;
+    margin-top: 56px;
+    padding: 20px 32px;    
+    display: flex;
+    flex-wrap: wrap; /* respeta los anchos */
+    justify-content: space-between;
+}
+    #promos h2{
+        width: 960px;
+        font-weight: 400;
+    }
+    #promos article{
+        width: 256px;
+    }
+    #promos h3{
+        margin: 16px 8px;
+        font-weight: 400;
+    }
+    #promos p{
+        margin: 0px 8px;
+    }
+    #promos a{
+        text-decoration: none;
+        color: #af5b01;
+    }
+    #promos a:hover{
+        color: #d66f00;
+        box-shadow: 0 0 8px #dcc3b2;
+    }
