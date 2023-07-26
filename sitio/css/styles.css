@@ -12,6 +12,10 @@ body{
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
 }
+a{
+    text-decoration: none;
+}
+
 
 header{
     width: 960px;
@@ -23,7 +27,6 @@ header{
 }
     header a{
         font-weight: 400;
-        text-decoration: none;
         color: #3c3c3c;
     }
 
@@ -86,10 +89,73 @@ main{
         margin: 0px 8px;
     }
     #promos a{
-        text-decoration: none;
         color: #af5b01;
     }
     #promos a:hover{
         color: #d66f00;
         box-shadow: 0 0 8px #dcc3b2;
     }
+
+/* sección servicios */
+
+#servicios{
+    width: 680px;
+    height: 372px;
+    margin: 56px auto;
+    display: flex;
+    flex-wrap: wrap; /* respeta los anchos */
+
+    column-gap: 100px;
+    row-gap: 32px;
+}
+    #servicios h2{
+        text-align: center;
+        font-weight: normal;
+        width: 680px;
+    }
+    #servicios a{
+        width: 160px;
+        height: 140px;
+        display: block;
+        text-align: center;
+        color: #3c3c3c;
+        border-radius: 12px;
+        border: 1px solid #3c3c3c;
+        transition: 500ms;
+    }
+    #servicios a:hover{
+        color: #fff;
+        background-color: #3c3c3c;
+    }
+
+        .material-symbols-outlined{
+            font-size: 56px;
+            margin: 22px 52px 17px 52px;
+        }
+
+/*#####  SERVICIOS #######*/
+#video iframe{
+    width: 960px;
+    height: 400px;
+    border: none;
+}
+
+/* footer  */
+footer{
+    width: 960px;
+    height: 160px;
+    margin: auto;
+    background-color: #3c3c3c;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    footer a{
+        color: #fff;
+    }
+        footer a img{
+            vertical-align: middle;
+            margin: 8px;
+        }
