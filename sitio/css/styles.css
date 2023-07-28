@@ -136,9 +136,54 @@ main{
 /*#####  SERVICIOS #######*/
 #video iframe{
     width: 960px;
-    height: 400px;
+    height: 450px;
     border: none;
 }
+
+/* Rooms */
+#rooms{
+    margin: 56px 0px;
+    padding: 32px;
+    background-color: #FAF0E9;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 32px;
+}
+    #rooms article{
+        display: flex;
+        background-color: #fff;
+    }
+        #rooms article div{
+            width: 478px;
+            padding: 16px 32px;
+        }
+        #rooms article div h2{
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+        #rooms article div span{
+            color: #AF5B01;
+        }
+        #rooms article div p{
+            margin: 40px 0px 32px 0px;
+            text-align: justify;
+        }
+        #rooms article div a{
+            display: block;
+            width: 160px;
+            margin: auto;
+            padding: 8px;
+            text-align: center;
+            color: #fff;
+            background-color: #AF5B01;
+            border-radius: 12px;
+            transition: 500ms;
+        }
+        #rooms article div a:hover{
+            background-color: #d66f00;
+        }
+
+
 
 /* footer  */
 footer{
