@@ -183,6 +183,60 @@ main{
             background-color: #d66f00;
         }
 
+/* Contactos */
+#formulario{
+    height: 450px;
+    background-color: #EC7D54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    #formulario form{
+        width: 560px;
+    }
+        #formulario form input, 
+        #formulario form textarea{
+            width: 100%;
+            background-color: #CB582E;
+            color: #fff;
+            border: none;
+            padding: 8px;
+            margin-top: 16px;;
+            border-radius: 8px;
+        }
+        #formulario form textarea{
+            height: 142px;
+            resize: none;
+        }
+
+        #formulario form input::placeholder, 
+        #formulario form textarea::placeholder{
+            color: #fff;
+            font-family: Raleway, sans-serif;
+            font-size: 600;
+        }
+
+        #formulario form button{
+            width: 206px;
+            padding: 8px;
+            margin-top: 24px;
+            border: none;
+            border-radius: 8px;
+            font-family: Raleway, sans-serif;
+            background-color: #fff;
+            cursor: pointer;
+        }
+
+/* mapa de google */
+#mapa{
+    margin: 56px 0px;
+}
+    #mapa iframe{
+        width: 960px;
+        height: 450px;
+        border: none;
+    }
 
 
 /* footer  */
